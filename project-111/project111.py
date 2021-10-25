@@ -52,7 +52,7 @@ fig.add_trace(go.Scatter(x=[second_stdev_end, second_stdev_end], y=[0, 0.17], mo
 fig.add_trace(go.Scatter(x=[third_stdev_start,third_stdev_start], y=[0,0.17], mode="lines", name="STANDARD DEVIATION 3 START")) 
 fig.add_trace(go.Scatter(x=[third_stdev_end,third_stdev_end], y=[0,0.17], mode="lines", name="STANDARD DEVIATION 3 END")) 
 
-Zscore= mean-sample_mean/std deviation
+Zscore= mean-sample_mean/deviation
 print("Z score is : "Zscore)
 
 fig.show()
